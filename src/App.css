@@ -1,3 +1,9 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
 }
@@ -23,16 +29,62 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+ 
+.App{
+  padding: 50px;
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+/* border: 1px solid black;
+width: 500px;
+height: 300px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stepDiv,.countDiv{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+ 
+.buttonLeft{
+  margin-right: 13px;
+  width: 35px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.buttonRight{
+  margin-left: 13px;
+  width: 35px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.datePara{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.dateParaSpan{
+  color: grey;
+}
+.resetButton{
+width: 70px;
+height: 30px;
+background-color: black;
+color: white;
+border-radius: 5px;
+}
+.resetButton:hover{
+  background-color: white;
+  color: black;
 }
